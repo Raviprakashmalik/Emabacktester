@@ -13,8 +13,8 @@ This repository contains a Python-based backtesting framework for the Exponentia
    - Sharpe Ratio
    - Total Return & Risk
    - Outperformance ratio
-Visualizes strategy vs. benchmark
-Modular and object-oriented design
+- Visualizes strategy vs. benchmark
+- Modular and object-oriented design
 
 🧠 How It Works:
 
