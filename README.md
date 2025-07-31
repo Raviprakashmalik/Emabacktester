@@ -4,15 +4,15 @@ This repository contains a Python-based backtesting framework for the Exponentia
 
 🚀 Features :
 
-Fetches historical stock data via yfinance
-Implements a simple EMA crossover strategy
-Computes:
-Log returns
-Cumulative strategy returns
-Buy & Hold returns
-Sharpe Ratio
-Total Return & Risk
-Outperformance ratio
+- Fetches historical stock data via yfinance
+- Implements a simple EMA crossover strategy
+- Computes:
+   - Log returns
+   - Cumulative strategy returns
+   - Buy & Hold returns
+   - Sharpe Ratio
+   - Total Return & Risk
+   - Outperformance ratio
 Visualizes strategy vs. benchmark
 Modular and object-oriented design
 
@@ -23,13 +23,13 @@ Modular and object-oriented design
 - Strategy returns are based on log returns adjusted by the position.
 - The results are compared with buy-and-hold strategy performance.
 
-🛠️ Usage:
+
 # Quick Example
 bt = EMAbacktester("AAPL", "2020-01-01", "2023-01-01", EMA_1=20, EMA_2=50)
 bt.test_results()
 bt.plot_results()
 
 
-🤝 License
+**🤝 License**
 
 MIT License. Free to use and modify.
